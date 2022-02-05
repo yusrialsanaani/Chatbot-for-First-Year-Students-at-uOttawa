@@ -1,0 +1,881 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yusri/ontologies/2021/2/uOttawa"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/yusri/ontologies/2021/2/uOttawa">
+    <Prefix name="" IRI="http://www.semanticweb.org/yusri/ontologies/2021/2/uOttawa"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Based on our competency questions, We plan to use this ontology for first year newly admitted students at a university to provide them answers for their most frequent questions.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Academic_Advisers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Academic_Guidance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Academic_advisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accommodation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brightspace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CO-OP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#COVID-19"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campus_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Career_Development_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Class_schedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Co-operative_Education_Programs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complaint_Filing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course_material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diseases_covered_in_health_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exam_preparation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Financial_Aid_and_Awards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_options"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Get_to_Know_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Getting_around"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Safety_and_Risk_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_and_Medical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_insurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Housing_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Rights_Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inquiries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#International_Student_Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internships"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Job"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Job_and_CO-OPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Job_search_portals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical_emergency_contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mentor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mentoring_Centres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#New_student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Old_student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Online_Library_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_safety_concerns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking_Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pay_Fees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protection_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration_Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rights_Ensuring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rights_and_Safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scholarship_and_Fees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secure_Uoapp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student_Academic_Success_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student_Account"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Students"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study_Groups"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study_partners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tracking_academic_progress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_Health_Insurance_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_health_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virtual_Maps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Work_hours"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Working_while_studying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uOttawa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uOttawa_card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uoZone_Portal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Applying_for_scholarship/bursary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drop/add_course"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#add"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apply_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#covers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enrol_or_drop"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ensure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#file"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#find"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#get"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#helps"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#issues"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pay"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#secures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#work"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#uOttaw_ID_Card"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hetvi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ID_Card"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Immanuella"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tavleen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UHIP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yusri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#courses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fees"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#parking_permission"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Academic_Advisers"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Academic_Guidance"/>
+        <Class IRI="#Inquiries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Academic_advisor"/>
+        <Class IRI="#Academic_Guidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accommodation"/>
+        <Class IRI="#Get_to_Know_University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brightspace"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CO-OP"/>
+        <Class IRI="#Job_and_CO-OPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COVID-19"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Campus_Services"/>
+        <Class IRI="#uOttawa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Career_Development_Centre"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Class_schedule"/>
+        <Class IRI="#Academic_Guidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Co-operative_Education_Programs"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complaint_Filing"/>
+        <Class IRI="#Rights_and_Safety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course_material"/>
+        <Class IRI="#Academic_Guidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diseases_covered_in_health_plan"/>
+        <Class IRI="#Health_and_Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exam_preparation"/>
+        <Class IRI="#Academic_Guidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Financial_Aid_and_Awards"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_options"/>
+        <Class IRI="#Get_to_Know_University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Get_to_Know_University"/>
+        <Class IRI="#Inquiries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Getting_around"/>
+        <Class IRI="#Get_to_Know_University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Safety_and_Risk_Management"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_and_Medical"/>
+        <Class IRI="#Inquiries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_insurance"/>
+        <Class IRI="#Health_and_Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Housing_Service"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Rights_Office"/>
+        <Class IRI="#Rights"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inquiries"/>
+        <Class IRI="#uOttawa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#International_Student_Office"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internships"/>
+        <Class IRI="#Job_and_CO-OPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Job"/>
+        <Class IRI="#Job_and_CO-OPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Job_and_CO-OPS"/>
+        <Class IRI="#Inquiries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Job_search_portals"/>
+        <Class IRI="#Job_and_CO-OPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical_emergency_contact"/>
+        <Class IRI="#Health_and_Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mentor"/>
+        <Class IRI="#Academic_Guidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mentoring_Centres"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#New_student"/>
+        <Class IRI="#Students"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Old_student"/>
+        <Class IRI="#Students"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Online_Library_Service"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other_safety_concerns"/>
+        <Class IRI="#Rights_and_Safety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking"/>
+        <Class IRI="#Get_to_Know_University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking_Office"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pay_Fees"/>
+        <Class IRI="#Scholarship_and_Fees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protection_Services"/>
+        <Class IRI="#Rights"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registration_Office"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurants"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rights"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rights_Ensuring"/>
+        <Class IRI="#Rights_and_Safety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rights_and_Safety"/>
+        <Class IRI="#Inquiries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scholarship_and_Fees"/>
+        <Class IRI="#Inquiries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secure_Uoapp"/>
+        <Class IRI="#Rights"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student_Academic_Success_Service"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student_Account"/>
+        <Class IRI="#Scholarship_and_Fees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Students"/>
+        <Class IRI="#uOttawa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Study_Groups"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Study_partners"/>
+        <Class IRI="#Academic_Guidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tracking_academic_progress"/>
+        <Class IRI="#Academic_Guidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_Health_Insurance_Plan"/>
+        <Class IRI="#International_Student_Office"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_health_plan"/>
+        <Class IRI="#Health_and_Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virtual_Maps"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Work_hours"/>
+        <Class IRI="#Job_and_CO-OPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Working_while_studying"/>
+        <Class IRI="#Job_and_CO-OPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uOttawa_card"/>
+        <Class IRI="#Get_to_Know_University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uoZone_Portal"/>
+        <Class IRI="#Campus_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Applying_for_scholarship/bursary"/>
+        <Class IRI="#Scholarship_and_Fees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drop/add_course"/>
+        <Class IRI="#Academic_Guidance"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Registration_Office"/>
+        <NamedIndividual IRI="#Hetvi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parking_Office"/>
+        <NamedIndividual IRI="#Immanuella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Student_Office"/>
+        <NamedIndividual IRI="#Tavleen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University_Health_Insurance_Plan"/>
+        <NamedIndividual IRI="#UHIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Students"/>
+        <NamedIndividual IRI="#Yusri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pay_Fees"/>
+        <NamedIndividual IRI="#fees"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parking"/>
+        <NamedIndividual IRI="#parking_permission"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#issues"/>
+        <NamedIndividual IRI="#Hetvi"/>
+        <NamedIndividual IRI="#ID_Card"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#provides"/>
+        <NamedIndividual IRI="#Immanuella"/>
+        <NamedIndividual IRI="#parking_permission"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#issues"/>
+        <NamedIndividual IRI="#Tavleen"/>
+        <NamedIndividual IRI="#UHIP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apply_for"/>
+        <NamedIndividual IRI="#Yusri"/>
+        <NamedIndividual IRI="#ID_Card"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#enrol_or_drop"/>
+        <NamedIndividual IRI="#Yusri"/>
+        <NamedIndividual IRI="#courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pay"/>
+        <NamedIndividual IRI="#Yusri"/>
+        <NamedIndividual IRI="#fees"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#add"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#covers"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#covers"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#eat"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#ensure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#file"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#issues"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#provides"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#secures"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#use"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#add"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apply_for"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#University_Health_Insurance_Plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eat"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enrol_or_drop"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ensure"/>
+        <Class IRI="#Human_Rights_Office"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ensure"/>
+        <Class IRI="#Protection_Services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#file"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#find"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#get"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#helps"/>
+        <Class IRI="#Career_Development_Centre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#issues"/>
+        <Class IRI="#International_Student_Office"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#issues"/>
+        <Class IRI="#Registration_Office"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pay"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#Housing_Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#Parking_Office"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#secures"/>
+        <Class IRI="#Human_Rights_Office"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#secures"/>
+        <Class IRI="#Protection_Services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#secures"/>
+        <Class IRI="#Secure_Uoapp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#use"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#work"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#add"/>
+        <Class IRI="#uOttawa_card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apply_for"/>
+        <Class IRI="#Financial_Aid_and_Awards"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#Diseases_covered_in_health_plan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eat"/>
+        <Class IRI="#Restaurants"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enrol_or_drop"/>
+        <Class IRI="#Drop/add_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ensure"/>
+        <Class IRI="#Other_safety_concerns"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ensure"/>
+        <Class IRI="#Rights_Ensuring"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ensure"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#file"/>
+        <Class IRI="#Complaint_Filing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#file"/>
+        <Class IRI="#Human_Rights_Office"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#file"/>
+        <Class IRI="#Protection_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#file"/>
+        <Class IRI="#Secure_Uoapp"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#find"/>
+        <Class IRI="#Academic_Advisers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#get"/>
+        <Class IRI="#Mentor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#get"/>
+        <Class IRI="#Mentoring_Centres"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#get"/>
+        <Class IRI="#Student_Academic_Success_Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#helps"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#issues"/>
+        <Class IRI="#University_Health_Insurance_Plan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#issues"/>
+        <Class IRI="#uOttawa_card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pay"/>
+        <Class IRI="#Pay_Fees"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#secures"/>
+        <Class IRI="#Students"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#use"/>
+        <Class IRI="#Virtual_Maps"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#work"/>
+        <Class IRI="#Working_while_studying"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#uOttaw_ID_Card"/>
+        <Class IRI="#Registration_Office"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#uOttaw_ID_Card"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#add</IRI>
+        <Literal xml:lang="en">Students add money to uOttawa Card</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#eat</IRI>
+        <Literal xml:lang="en">Students eat at Restaurants on-campus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#enrol_or_drop</IRI>
+        <Literal xml:lang="en">Students enrol/drop courses through uoZone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#file</IRI>
+        <Literal xml:lang="en">Student can file a complaint either at the Human rights Office or they can use protection Service like the Uoapp from Playstore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#helps</IRI>
+        <Literal xml:lang="en">Career_Development_Centre helps student how to find a job.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#issues</IRI>
+        <Literal xml:lang="en">Registration Office issues the uOttawa ID for new students by online application.
+international student office isses the UHIP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#pay</IRI>
+        <Literal xml:lang="en">Students pay fees through student account</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#provides</IRI>
+        <Literal xml:lang="en">The Parking Office provides permission to students
+Housing Service at uOttawa provides accommodation to students</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#secures</IRI>
+        <Literal xml:lang="en">Students can ensure that their rights are secure and can file a complaint if there is any voilation of the rights. 
+Student can visit Human Rights Office or use the protection service like the Uoapp  from Playstore to secure their rights</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#use</IRI>
+        <Literal xml:lang="en">The students use Virtual Maps to get around the university</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
