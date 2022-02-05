@@ -36,3 +36,8 @@ Demo LInk:
 https://sonihetvi10.github.io/ChatBot_Uottawa.github.io/ 
 ![image](https://user-images.githubusercontent.com/89004966/152660611-f9461413-b852-41e9-af9d-e44c572cc7a9.png)
 
+***Done By:**
+- Yusri Al-Sanaani
+- Hetvi Soni
+- Tavleen Kour
+- Immanuella Iyawe
